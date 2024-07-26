@@ -123,13 +123,13 @@
                     <p>Kgs of Sold</p>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <!-- <div class="col-sm-3">
                 <div class="col-wrapper">
                     <div class="icon-border bm10"> <i class="fa fa-play-circle-o"></i> </div>
                     <h4>39472</h4>
                     <p>Watched</p>
                 </div>
-            </div>
+            </div> -->
             <div class="col-sm-3">
                 <div class="col-wrapper">
                     <div class="icon-border bm10"> <i class="fa fa-truck"></i> </div>
@@ -423,51 +423,70 @@
             <p class="lead main text-center">We'ld hear you &amp; your love</p>
             <div class="row">
                 <div class="col-md-6">
-                    <form class="form form-table" method="post" name="">
+                    <!-- <form class="form form-table" method="post" name=""> -->
+                    <form action="https://formsubmit.co/6b75ae710c6f273d16af6e9550b81a00" method="POST">    
                         <div class="form-group">
                             <h4>Fill the form for queries (all fields required)</h4>
                         </div>
 
                         <div class="row">
                           <div class="col-lg-6 col-md-6 form-group">
-                            <label class="sr-only" for="first_name1">first name</label>
-                            <input class="form-control hint" type="text" id="first_name1" name="first_name" placeholder="First name" required="">
+                            <label class="" for="first_name1">Full Name:</label>
+                            <input class="form-control hint" type="text" id="first_name1" name="Full Name" placeholder="Full Name" required="">
                           </div>
                           <div class="col-lg-6 col-md-6 form-group">
-                            <label class="sr-only" for="last_name1">last name</label>
-                            <input class="form-control hint" type="text" id="last_name1" name="last_name" placeholder="Last name" required="">
+                            <label class="" for="last_name1">Designation:</label>
+                            <input class="form-control hint" type="text" id="last_name1" name="Designation" placeholder="Designation" required="">
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-lg-6 col-md-6 form-group">
-                            <label class="sr-only" for="email1">email</label>
+                            <label class="" for="email1">Email-id:</label>
                             <input class="form-control hint" type="email" id="email1" name="email" placeholder="Email@domain.com" required="">
                           </div>
                           <div class="col-lg-6 col-md-6 form-group">
-                            <label class="sr-only" for="phone1">phone</label>
+                            <label  for="phone1">Phone:</label>
                             <input class="form-control hint" type="text" id="phone1" name="phone" placeholder="Phone" required="">
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-lg-6 col-md-6 form-group">
-                            <label class="sr-only" for="reserv_date1">business name</label>
-                            <input class="form-control datepicker hasDatepicker hint" type="text" id="reserv_date1" name="reserv_date" placeholder="Business name" required="">
+                            <label class="" for="reserv_date1">Business Name:</label>
+                            <input class="form-control datepicker hasDatepicker hint" type="text" id="business name" name="Business_name" placeholder="Business name" required="">
                           </div>
                           <div class="col-lg-6 col-md-6 form-group">
-                            <label class="sr-only" for="numb_guests1">business address</label>
-                            <input class="form-control hint" type="text" id="numb_guests1" name="numb_guests" placeholder="Business Address" required="">
+                            <label  for="numb_guests1">Business Address:</label>  
+                            <input class="form-control hint" type="text" id="business address" name="Business_address" placeholder="Business Address" required="">
                           </div>
                         </div>
                         <div class="row">
+                            <div class="col-lg-6 col-md-6 form-group">
+                                <label for="business_type">Business Type:</label>
+                                <select class="form-control" id="business_type" name="Business_type" required>
+                                    <option value="">Select Business Type</option>
+                                    <option value="service">Hotel</option>
+                                    <option value="retail">Restaurant</option>
+                                    <option value="service">Caterer</option>
+                                    <option value="manufacturing">Retail Shop</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 col-md-6 form-group">
+                                <label for="business_description">Business Requirements:</label>
+                                <textarea class="form-control" id="business_description" name="Business_Requirements" placeholder="Describe your Requirements" rows="4" required></textarea>
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="row">
                           <div class="col-lg-6 col-md-6 form-group">
                             <label class="sr-only" for="alt_reserv_date1">time from</label>
-                            <input class="form-control datepicker hasDatepicker hint" type="text" id="alt_reserv_date1" name="alt_reserv_date" placeholder="Time from" required="">
+                            <input class="form-control datepicker hasDatepicker hint" type="text" id="alt_reserv_date1" name="Time" placeholder="Time from" required="">
                           </div>
                           <div class="col-lg-6 col-md-6 form-group">
                             <label class="sr-only" for="time1">time</label>
-                            <input class="form-control timepicker ui-timepicker-input hint" type="text" id="time1" name="time" placeholder="Time to" required="" autocomplete="off">
+                            <input class="form-control timepicker ui-timepicker-input hint" type="text" id="time1" name="Time" placeholder="Time to" required="" autocomplete="off">
                           </div>
-                        </div>
+                        </div> -->
                         <!-- <div class="row">
                           <div class="col-lg-12 col-md-12">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -498,11 +517,11 @@
                     width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                     <h3><i class="fa fa-map-marker fa-fw"></i>Directions</h3>
-                    <p>4120 Near Hari Masjid, Chandini Chowk Road, Shivajinagar, Bengaluru - 560051</p>
+                    <p>4120 Near Hari Masjid, Chandini Chowk Road, Shivajinagar, Bengaluru-560 051</p>
 
                     <h3><i class="fa fa-mobile fa-fw"></i>Contacts</h3>
                     <p>Email: <a href="mailto:yourname@meatking.com">info@meatman.com</a></p>
-                    <p>Phone: +91 8951863373</p>
+                    <p>Phone: <a href="telto:+91-8951863373">+91-8951863373</a></p>
 
                 </div><!-- col-md-6 -->
             </div>
@@ -524,7 +543,7 @@
                 <div class="col-sm-4">
                     <div class="col-wrapper">
                         <div class="icon-wrapper">
-                            <img src="img/chefs/WhatsApp Image 2024-07-12 at 4.17.50 PM.jpeg">
+                            <img src="img/chefs/Saif goila 2.jpeg">
                         </div>
                         <h3>Saif Goila</h3>
                         <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum ultricies vehicula.</p>
